@@ -44,7 +44,3 @@ if __name__ == '__main__':
             line = replace_random_token(line, probability=args.replace_probability, filler_token=args.filler_token)
             line = random_token_permutation(line, _range=args.permutation_range)
             output.write(line + '\n')
-
-
-
-
