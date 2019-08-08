@@ -44,6 +44,14 @@ Example of complete usage
 python add_noise.py data/example --delete_probability 0.9 --replace_probability 0.9  --filler_token 'MASK' --permutation_range 3
 ```
 
+**Important Note**
+
+If you are using a subword tool such as SentencePiece after adding noise to your corpus, notice that your replacement token (which is ``'BLANK'`` by default) might be segmented into somthing like ``'▁B LAN K'``
+
+I recommend to make a pass on your corpus to correct it: (adapt it to your token and segmentation)
+```sh
+sed -i 's/▁B LAN K/▁BLANK/g' yourtextfile
+```
 
 ## Results
 
