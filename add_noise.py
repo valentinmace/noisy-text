@@ -1,4 +1,4 @@
-# Valentin Macé
+# Valentin Mace
 # valentin.mace@kedgebs.com
 # Developed at Qwant Research
 
