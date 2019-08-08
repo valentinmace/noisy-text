@@ -80,6 +80,7 @@ The first table reports a Transformer model identical to the "base model" in [Va
 ## Notes
 
 Do not hesitate to contact me if you need some help, need a feature or see some bug
+
 Feel free and welcome to contribute
 
 
