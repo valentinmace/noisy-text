@@ -1,5 +1,6 @@
 # Noisy-Text
 >Add noise to your text, inspired by [Edunov et al. (2018)](https://arxiv.org/abs/1808.09381) "Understanding Back-Translation at scale"
+> Made at Qwant Research during my internship
 
 <p align="center">
   <img src="./animation.gif">
