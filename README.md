@@ -35,6 +35,16 @@ I've implemented the 3 noise functions described in the paper:
 
 The default parameters are to reproduce [Edunov et al. (2018)](https://arxiv.org/abs/1808.09381) experiments but you can play with them and maybe find better values
 
+Example of simple usage
+```sh
+python add_noise.py data/example --progress
+```
+Example of complete usage
+```sh
+python add_noise.py data/example --delete_probability 0.9 --replace_probability 0.9  --filler_token 'MASK' --permutation_range 3
+```
+
+
 ## Results
 
 I've run NMT experiments on WMT 2019 de-en corpus, using all available parallel data and adding the monolingual news-crawl 2018 via backtranslation.
